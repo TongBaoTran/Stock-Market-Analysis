@@ -178,7 +178,7 @@ fig.clf()
 quan = rets['Daily Return'].quantile(0.05)
 st.write("The 0.05 empirical quantile of daily returns is at {ret}. This means that with 95% confidence, the worst daily loss will not exceed {ret2}% (of the investment).".format(ret = quan, ret2 = abs(quan*100)))
 
-st.header("4. Predict stock price")
+st.header("5. Predict stock price")
 print(data.head())
 time_elapsed = (data['Date'].iloc[-1] - data['Date'].iloc[0]).days
 
