@@ -129,7 +129,7 @@ if len(options)> 0:
 
 ############################
 ###### Part 3 ##############
-    st.header("3. Dayss vs Risk")
+    st.header("3. Expected Return vs Risk")
     plt.figure(figsize=(8,5))
     plt.scatter(rets_df.mean(),rets_df.std(),s=25)
 
